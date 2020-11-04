@@ -1,0 +1,149 @@
+/* styling the body */
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+
+/* styling the nav bar */
+
+nav {
+    position: fixed;
+    padding: 3px;
+    text-align: center;
+    box-shadow: 1px 0px 5px black;
+    top: 0;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    margin-top: 10%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cards {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    margin: 5px;
+    width: 280px;
+    height: 200px;
+    box-shadow: 1px 2px 5px black;
+}
+
+#card1 h4 {
+    animation-name: card1an;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#card2 h4 {
+    animation-name: card2an;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#card3 h4 {
+    animation-name: card3an;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#card4 h4 {
+    animation-name: card4an;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes card1an {
+    0% {
+        color: green;
+        transform: translateY(150px);
+        font-weight: 900;
+    }
+    30% {
+        color: red;
+        transform: translateX(150px);
+        font-style: italic;
+    }
+    60% {
+        color: rgb(240, 150, 15);
+    }
+    100% {
+        font-size: x-large;
+        color: cyan;
+    }
+}
+
+@keyframes card2an {
+    0% {
+        color: aqua;
+    }
+    50% {
+        transform: translateX(150px);
+    }
+    100% {
+        font-size: xx-large;
+        color: rgb(128, 0, 0);
+        transform: translateY(100px);
+    }
+}
+
+@keyframes card3an {
+    0% {
+        font-style: oblique;
+        color: rgb(69, 9, 231);
+    }
+    50% {
+        font-size: xx-large;
+        transform: translateY(100px);
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(120deg);
+        font-size: xx-small;
+    }
+}
+
+@keyframes card4an {
+    0% {
+        font-style: oblique;
+        color: rgb(69, 9, 231);
+        transform: translateY(100px);
+    }
+    50% {
+        font-size: x-large;
+        transform: translateX(100px);
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(120deg);
+        font-size: xx-small;
+    }
+}
+
+.cards:hover {
+    animation-timing-function: ease-in-out;
+    animation-name: cardsan;
+    animation-duration: 2s;
+}
+
+@keyframes cardsan {
+    0% {
+        background-color: rgb(255, 1, 179);
+    }
+    50% {
+        transform: translateY(-50px);
+        background-color: rgba(238, 83, 192, 0.514);
+    }
+    100% {
+        transform-style: preserve-3d;
+    }
+}
