@@ -25,13 +25,25 @@ main {
 
 .colum {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
 .row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.colum-reverse {
+    display: flex;
+    flex-direction: column-reverse;
     flex-wrap: wrap;
 }
 
@@ -42,5 +54,5 @@ main {
     margin: 10px;
     box-shadow: 2px 2px 3px black;
     padding: 10px;
-    background-color: rgb(0, 255, 170);
+    background-color: rgb(39, 248, 213);
 }
