@@ -1,0 +1,78 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0%;
+    width: 100%;
+    color: #333;
+    font-size: 1.5rem;
+    background-color: #eee;
+    line-height: 1.5;
+}
+
+#main {
+    text-align: center;
+}
+
+.header {
+    margin-top: 0%;
+    width: inherit;
+    margin-bottom: 5%;
+    padding: 5px;
+    background-color: #ABABAB;
+}
+
+.header p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+#title {
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#img-div {
+    text-align: center;
+}
+
+#img-caption {
+    word-wrap: break-word;
+}
+
+#image {
+    box-shadow: 5px 3px 5px black;
+    border-radius: 5px;
+}
+
+#tribute-info {
+    width: 80%;
+    margin: auto;
+    word-wrap: break-word;
+}
+
+#tribute-info h4 {
+    text-decoration: underline;
+}
+
+#headline {
+    text-transform: capitalize;
+    text-decoration: solid;
+}
+
+#tribute-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: #ABABAB;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    margin-top: 5px;
+    text-align: center;
+    width: inherit;
+}
