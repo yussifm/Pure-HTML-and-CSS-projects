@@ -25,7 +25,15 @@
             width: 50px;
             height: 55px;
             background-color: #eee;
-            margin-left: -350px;
+            position: absolute;
+            left: 0;
+            margin-left: 20px;
+        }
+        
+        #nav-bar {
+            position: absolute;
+            right: 0;
+            margin-right: 50px;
         }
         
         #nav-bar ul li {
